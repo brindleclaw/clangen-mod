@@ -459,15 +459,15 @@ dev_tools = false
 [cat_name_controls]
   # set to true if you always want cats named after the color of their pelt
   # if cats can't find a pelt color, they will choose from normal_prefixes
-  always_name_after_appearance = false
+  always_name_after_appearance = true
 
   # allows cats to be named after the color of their eyes
-  allow_eye_names = true
+  allow_eye_names = false
 
   # determines which list outsiders pull from: silly_names, human_names, loner_names, or normal_prefixes
   # number / total for each control
 
-  kittypet = [30, 50, 10, 10]
+  kittypet = [10, 60, 20, 10]
   loner = [5, 15, 50, 30]
   rogue = [3, 7, 35, 55]
 
@@ -476,14 +476,14 @@ dev_tools = false
 
 [accessory_generation]
   # base 1/chance a cat generates with an accessory 
-  base_acc_chance = 150
+  base_acc_chance = 130
 
   # modifiers for accessories add or subtract from chance IN THE DENOMINATOR 
   #   i.e. 1/(chance + med_modifier + baby_modifier + elder_modifier + ...)
   # so SUBTRACTING will INCREASE the chance an accessory is given
 
   # modifies accessory chance based on if cat is a medicine cat
-  med_modifier = -80
+  med_modifier = -60
 
   # modifies accessory chance based on if cat is a kitten or adolescent
   baby_modifier = -20
@@ -562,8 +562,8 @@ dev_tools = false
   # if you DON'T DO THIS, your game WILL break
   newborn = [0, 0]
   kitten = [1, 5]
-  adolescent = [6, 11]
-  "young adult" = [12, 47]
+  adolescent = [6, 17]
+  "young adult" = [18, 47]
   adult = [48, 95]
   "senior adult" = [96, 119]
   senior = [120, 300]
@@ -701,7 +701,7 @@ dev_tools = false
 
 [clan_creation]
   # Set this to -1 for it to be infinite
-  rerolls = 3
+  rerolls = -1
 
   # other clans will start with a random relation between the two numbers
   starting_clan_relation = [8, 12]
@@ -728,7 +728,7 @@ dev_tools = false
   [clan_creation.valid_rank_to_age_assignment]
     leader = ["young adult", "adult", "senior adult", "senior"]
     deputy = ["young adult", "adult", "senior adult", "senior"]
-    "medicine cat" = ["young adult", "adult", "senior adult", "senior"]
+    "medicine cat" = ["adolescent", "young adult", "adult", "senior adult", "senior"]
     member = ["newborn", "kitten", "adolescent", "young adult", "adult", "senior adult", "senior"]
 
 [ranks]
