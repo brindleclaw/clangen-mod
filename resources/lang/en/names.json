@@ -556,6 +556,28 @@
     "Whin", "Woad", "Quince", "Yarrow",
     "Apple",
     "Carp", "Rudd"
+    ],
+    "CHOCOLATE": [
+    "Golden", "Brown", "Russet", "Dark", "Light", "Pale",
+    "Dust", "Mud",
+    "Weevil",
+    "Lynx", "Weasel", "Boar", "Bat", "Deer", "Hare", "Jaguar", "Leopard", "Marten", "Mink",
+    "Mouse", "Muntjac", "Otter", "Rabbit", "Rat", "Shrew", "Stoat", "Tiger", "Vole",
+    "Bittern", "Bunting", "Buzzard", "Curlew", "Dipper", "Dunlin", "Eagle", "Garganey",
+    "Goose", "Goshawk", "Grouse", "Harrier", "Jay", "Kite", "Lark", "Mallard", "Nightingale",
+    "Seal", "Brambling", "Bunting", "Dove", "Knot", "Linnet", "Sycamore", "Tawny", "Dawn",
+    "Dusk", "Twilight", "Pebble", "Martin", "Duck"
+    ],
+    "CHOCRUSSET": [
+    "Golden", "Brown", "Russet", "Dark", "Light", "Pale",
+    "Dust", "Mud",
+    "Weevil",
+    "Lynx", "Weasel", "Boar", "Bat", "Deer", "Hare", "Jaguar", "Leopard", "Marten", "Mink",
+    "Mouse", "Muntjac", "Otter", "Rabbit", "Rat", "Shrew", "Stoat", "Tiger", "Vole",
+    "Bittern", "Bunting", "Buzzard", "Curlew", "Dipper", "Dunlin", "Eagle", "Garganey",
+    "Goose", "Goshawk", "Grouse", "Harrier", "Jay", "Kite", "Lark", "Mallard", "Nightingale",
+    "Seal", "Brambling", "Bunting", "Dove", "Knot", "Linnet", "Sycamore", "Tawny", "Dawn",
+    "Dusk", "Twilight", "Pebble", "Martin", "Duck"
     ]
   },
 

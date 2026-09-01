@@ -23,7 +23,9 @@
             "SMARMALADE": "silred",
             "SYELLOW": "silred",
             "CREAM": "cream",
-            "PALEGINGER": "cream"
+            "PALEGINGER": "cream",
+            "CHOCOLATE": "chocolate",
+            "CHOCRUSSET": "chocolate"
         },
         "pattern_types": {
             "Tabby": "tabbies",

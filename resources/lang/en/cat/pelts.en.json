@@ -93,6 +93,14 @@
             "one": "cream",
             "many": "pale ginger"
         },
+        "CHOCOLATE": {
+            "one": "chestnut",
+            "many": "chestnut"
+        },
+        "CHOCRUSSET": {
+            "one": "russet",
+            "many": "russet"
+        }
         "SingleColour": "single color",
         "SingleColour_long": "%{color}",
         "TwoColour": "two color",
