@@ -23,7 +23,9 @@
     "SMARMALADE": "none",
     "SYELLOW": "none",
     "CREAM": "cream",
-    "PALEGINGER": "cream"
+    "PALEGINGER": "cream",
+    "CHOCOLATE": "warm",
+    "CHOCRUSSET": "warm"
   },
   "possible_tints": {
     "basic": [],
