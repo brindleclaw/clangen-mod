@@ -30,7 +30,7 @@
     "none": [],
     "mono": ["gray", "black"],
     "warm": ["orange", "yellow", "purple", "gray", "black"],
-    "cool": ["gray", "black", "purple", "blue", "yellow", "cooldilute", "dilute"],
+    "cool": ["gray", "black", "purple", "blue", "cooldilute", "dilute"],
     "satred": ["pink", "orange", "yellow", "warmdilute"],
     "dullred": ["red", "yellow", "warmdilute"],
     "cream": ["pink", "yellow", "warmdilute", "dilute"]
