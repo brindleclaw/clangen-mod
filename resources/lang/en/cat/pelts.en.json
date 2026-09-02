@@ -94,12 +94,12 @@
             "many": "pale ginger"
         },
         "CHOCOLATE": {
-            "one": "chestnut",
-            "many": "chestnut"
+            "one": "brown",
+            "many": "brown"
         },
         "CHOCRUSSET": {
-            "one": "russet",
-            "many": "russet"
+            "one": "brown",
+            "many": "russet brown"
         },
         "SingleColour": "single color",
         "SingleColour_long": "%{color}",
