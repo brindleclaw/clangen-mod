@@ -25,7 +25,9 @@
     "CREAM": "pale",
     "PALEGINGER": "pale",
     "CHOCOLATE": "warm",
-    "CHOCRUSSET": "warm"
+    "CHOCRUSSET": "warm",
+    "LILAC": "hotncold",
+    "ASH": "hotncold"
   },
   "possible_tints": {
     "basic": ["offwhite"],

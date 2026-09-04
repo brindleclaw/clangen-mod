@@ -25,7 +25,9 @@
             "CREAM": "cream",
             "PALEGINGER": "cream",
             "CHOCOLATE": "chocolate",
-            "CHOCRUSSET": "chocolate"
+            "CHOCRUSSET": "chocolate",
+            "LILAC": "lilac",
+            "ASH": "lilac"
         },
         "pattern_types": {
             "Tabby": "tabbies",

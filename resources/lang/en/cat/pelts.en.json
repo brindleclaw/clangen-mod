@@ -94,12 +94,20 @@
             "many": "pale ginger"
         },
         "CHOCOLATE": {
-            "one": "brown",
+            "one": "chestnut",
             "many": "brown"
         },
         "CHOCRUSSET": {
-            "one": "brown",
+            "one": "chestnut",
             "many": "russet brown"
+        },
+        "LILAC": {
+            "one": "lilac",
+            "many": "lilac"
+        },
+        "ASH": {
+            "one": "lilac",
+            "many": "ashen lilac"
         },
         "SingleColour": "single color",
         "SingleColour_long": "%{color}",
