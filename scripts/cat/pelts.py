@@ -872,7 +872,7 @@ class Pelt:
         #   PELT COLOUR
         # ------------------------------------------------------------------------------------------------------------#
 
-        chosen_pelt_color = choice(random.choices(Pelt.colour_categories, weights=(70, 20, 50, 100, 20, 50, 10, 5), k=1)[0])
+        chosen_pelt_color = choice(random.choices(Pelt.colour_categories, weights=(70, 20, 50, 100, 20, 50, 10, 5, 5), k=1)[0])
 
         # ------------------------------------------------------------------------------------------------------------#
         #   PELT LENGTH
