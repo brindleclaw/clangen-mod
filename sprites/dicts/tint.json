@@ -34,11 +34,11 @@
     "none": [],
     "mono": ["gray", "black"],
     "warm": ["orange", "yellow", "purple", "gray", "black"],
-    "cool": ["gray", "black", "purple", "blue", "cooldilute", "dilute"],
+    "cool": ["gray", "black", "blue", "cooldilute", "dilute"],
     "satred": ["pink", "orange", "yellow", "warmdilute"],
     "dullred": ["red", "yellow", "warmdilute"],
     "cream": ["pink", "yellow", "warmdilute", "dilute"],
-    "lilac": ["gray", "warmdilute", "cooldilute", "dilute"]
+    "lilac": ["gray", "dilute"]
   },
   "tint_colours":
   {
