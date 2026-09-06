@@ -741,7 +741,7 @@ class Pelt:
         #   PELT COLOUR
         # ------------------------------------------------------------------------------------------------------------#
         # Weights for each colour group. It goes: (red, silred, cream, black, silblack, blue, silblue, chocolate, lilac)
-        weights = [0, 0, 0, 0, 0, 0, 0, 0]
+        weights = [0, 0, 0, 0, 0, 0, 0, 0, 0]
         for p_ in par_peltcolours:
             if p_ in Pelt.red_colours:
                 add_weight = (40, 0, 20, 0, 0, 0, 0, 0, 0)
@@ -771,7 +771,7 @@ class Pelt:
 
             # A quick check to make sure all the weights aren't 0
             if all([x == 0 for x in weights]):
-                weights = [1, 1, 1, 1, 1, 1, 1]
+                weights = [1, 1, 1, 1, 1, 1, 1, 1, 1]
 
         chosen_pelt_color = choice(
             random.choices(Pelt.colour_categories, weights=weights, k=1)[0]
