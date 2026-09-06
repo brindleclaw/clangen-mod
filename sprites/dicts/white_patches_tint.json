@@ -32,7 +32,7 @@
   "possible_tints": {
     "basic": ["offwhite"],
     "cool": ["gray"],
-    "hotncold": ["gray", "cream"],
+    "hotncold": ["cream"],
     "warm": ["cream", "darkcream", "pink"],
     "pale": []
   },
