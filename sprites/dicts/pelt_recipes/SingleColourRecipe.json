@@ -45,7 +45,7 @@
             }
         },
         {
-            "colors": "LIGHTBROWN",
+            "colors": ["LIGHTBROWN", "GBLACK"],
             "layer_order": ["9", "10"],
             "layers": {
                 "9": {
