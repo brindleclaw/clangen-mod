@@ -27,7 +27,9 @@
     "CHOCOLATE": "warm",
     "CHOCRUSSET": "warm",
     "LILAC":"lilac",
-    "ASH": "lilac"
+    "ASH": "lilac",
+    "CINNAMON": "cinn",
+    "CINNTAWNY": "cinn"
   },
   "possible_tints": {
     "basic": [],
@@ -38,7 +40,8 @@
     "satred": ["pink", "orange", "yellow", "warmdilute"],
     "dullred": ["red", "yellow", "warmdilute"],
     "cream": ["pink", "yellow", "warmdilute", "dilute"],
-    "lilac": ["gray", "dilute"]
+    "lilac": ["pink", "gray", "dilute"],
+    "cinn": ["red", "orange", "yellow", "gray"]
   },
   "tint_colours":
   {

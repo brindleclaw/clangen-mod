@@ -11,7 +11,8 @@
   "normal_suffixes" : [
     "fur", "pelt", "tuft", "leap", "fall", "face",
     "claw", "fang", "whisker", "nose", "throat", "toe", "foot", "tail", "belly",
-    "heart", "storm", "cloud", "dusk", "dawn", "shade", "shine", "leaf"
+    "heart", "storm", "cloud", "dusk", "dawn", "shade", "shine", "leaf",
+    "stream", "breeze", "pool", "flower"
   ],
 	"pelt_prefixes": {
     "TwoColour": ["Patch"],
@@ -644,6 +645,44 @@
     "Sage", "Holly", "Squill", "Crocus", "Scabious", "Wisteria", "Daisy", "Nettle", "Heath",
     "Madder", "Phacelia", "Rocket", "Teasel", "Lucerne", "Limodore",
     "Alder", "Aspen", "Birch", "Juniper", "Poplar", "Willow", "Fir", "Fig"
+    ],
+    "CINNAMON": [
+    "Golden", "Brown", "Russet", "Dark", "Light", "Pale",
+    "Dust", "Mud",
+    "Weevil",
+    "Lynx", "Weasel", "Boar", "Bat", "Deer", "Hare", "Jaguar", "Leopard", "Marten", "Mink",
+    "Mouse", "Muntjac", "Otter", "Rabbit", "Rat", "Shrew", "Stoat", "Tiger", "Vole",
+    "Bittern", "Bunting", "Buzzard", "Curlew", "Dipper", "Dunlin", "Eagle", "Garganey",
+    "Goose", "Goshawk", "Grouse", "Harrier", "Jay", "Kite", "Lark", "Mallard", "Nightingale",
+    "Seal", "Brambling", "Bunting", "Dove", "Knot", "Linnet", "Sycamore", "Tawny", "Dawn",
+    "Dusk", "Twilight", "Pebble", "Martin", "Duck",
+    "Red", "Orange", "Tawny", "Ginger",
+    "Fire", "Flame", "Spark",
+    "Deer", "Fox", "Jaguar", "Leopard", "Mouse", "Squirrel", "Tiger", 
+    "Asphodel", "Balsam", "Myrtle", "Flax", "Marigold", "Montbretia", "Nasturtium", "Pimpernel",
+    "Poppy", "Quince", "Spindle", "Anemone", "Burnet", "Clover", "Cross", "Dock", "Agaric",
+    "Fuchsia", "Orache", "Robin", "Safflower", "Sickener", "Sorrel", "Willow",
+    "Holly", "Cherry", "Rowan", "Yew", 
+    "Tench", "Rudd"
+    ],
+    "CINNTAWNY": [
+    "Golden", "Brown", "Russet", "Dark", "Light", "Pale",
+    "Dust", "Mud",
+    "Weevil",
+    "Lynx", "Weasel", "Boar", "Bat", "Deer", "Hare", "Jaguar", "Leopard", "Marten", "Mink",
+    "Mouse", "Muntjac", "Otter", "Rabbit", "Rat", "Shrew", "Stoat", "Tiger", "Vole",
+    "Bittern", "Bunting", "Buzzard", "Curlew", "Dipper", "Dunlin", "Eagle", "Garganey",
+    "Goose", "Goshawk", "Grouse", "Harrier", "Jay", "Kite", "Lark", "Mallard", "Nightingale",
+    "Seal", "Brambling", "Bunting", "Dove", "Knot", "Linnet", "Sycamore", "Tawny", "Dawn",
+    "Dusk", "Twilight", "Pebble", "Martin", "Duck",
+    "Red", "Orange", "Tawny", "Ginger",
+    "Fire", "Flame", "Spark",
+    "Deer", "Fox", "Jaguar", "Leopard", "Mouse", "Squirrel", "Tiger", 
+    "Asphodel", "Balsam", "Myrtle", "Flax", "Marigold", "Montbretia", "Nasturtium", "Pimpernel",
+    "Poppy", "Quince", "Spindle", "Anemone", "Burnet", "Clover", "Cross", "Dock", "Agaric",
+    "Fuchsia", "Orache", "Robin", "Safflower", "Sickener", "Sorrel", "Willow",
+    "Holly", "Cherry", "Rowan", "Yew", 
+    "Tench", "Rudd"
     ]
   },
 
@@ -675,7 +714,9 @@
     "CHOCOLATE": ["pelt", "fur", "tuft", "face"],
     "CHOCRUSSET": ["pelt", "fur", "tuft", "face"],
     "LILAC": ["pelt", "fur", "tuft", "face"],
-    "ASH": ["pelt", "fur", "tuft", "face"]
+    "ASH": ["pelt", "fur", "tuft", "face"],
+    "CINNAMON": ["pelt", "fur", "tuft", "face"],
+    "CINNTAWNY": ["pelt", "fur", "tuft", "face"]
   },
 
   "biome_prefixes": {

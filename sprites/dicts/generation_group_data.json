@@ -27,7 +27,9 @@
             "CHOCOLATE": "chocolate",
             "CHOCRUSSET": "chocolate",
             "LILAC": "lilac",
-            "ASH": "lilac"
+            "ASH": "lilac",
+            "CINNAMON": "cinnamon",
+            "CINNTAWNY": "cinnamon"
         },
         "pattern_types": {
             "Tabby": "tabbies",
