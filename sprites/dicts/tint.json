@@ -63,6 +63,8 @@
     "dilute": [20, 20, 20],
     "warmdilute": [25, 15, 7],
     "cooldilute": [7, 15, 25],
+    "pinkdilute": [80, 50, 45],
+    "earthydilute": [44, 33, 11],
     "none": null
   }
 }

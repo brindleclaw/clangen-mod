@@ -53,21 +53,21 @@
     "Calico": ["dapple", "dapple", "dapple", "brindle", "patch", "patch", "patch", "dash", "blaze", "splash"]
   },
   "tortie_pelt_suffixes": {
-    "single": ["dapple", "brindle"],
-    "tabby": ["swirl", "stripe", "dapple", "brindle"],
-    "marbled": ["swirl", "spots", "dapple", "brindle"],
-    "speckled": ["spots", "dapple", "brindle"],
-    "bengal": ["spots", "dapple", "brindle"],
-    "rosette": ["spots", "dapple", "brindle"],
-    "smoke": ["dapple", "brindle"],
-    "ticked": ["fleck", "dapple", "brindle"],
-    "mackerel": ["stripe", "dapple", "brindle"],
-    "classic": ["stripe", "swirl", "dapple", "brindle"],
-    "sokoke": ["stripe", "swirl", "dapple", "brindle"],
-    "agouti": ["fleck", "dapple", "brindle"],
-    "singlestripe": ["stripe"],
-    "masked": ["stripe", "dapple", "brindle"],
-    "freckled": ["fleck", "dapple", "brindle"]
+    "SingleColour": ["dapple", "brindle"],
+    "Tabby": ["swirl", "stripe", "dapple", "brindle"],
+    "Marbled": ["swirl", "spots", "dapple", "brindle"],
+    "Speckled": ["spots", "dapple", "brindle"],
+    "Bengal": ["spots", "dapple", "brindle"],
+    "Rosette": ["spots", "dapple", "brindle"],
+    "Smoke": ["dapple", "brindle"],
+    "Ticked": ["fleck", "dapple", "brindle"],
+    "Mackerel": ["stripe", "dapple", "brindle"],
+    "Classic": ["stripe", "swirl", "dapple", "brindle"],
+    "Sokoke": ["stripe", "swirl", "dapple", "brindle"],
+    "Agouti": ["fleck", "dapple", "brindle"],
+    "Singlestripe": ["stripe"],
+    "Masked": ["stripe", "dapple", "brindle"],
+    "Freckled": ["fleck", "dapple", "brindle"]
   },
 
   "normal_prefixes": [
