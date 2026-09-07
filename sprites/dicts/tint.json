@@ -40,7 +40,7 @@
     "warm": ["orange", "yellow", "purple", "gray", "black"],
     "cool": ["gray", "black", "blue", "cooldilute", "dilute"],
     "satred": ["pink", "orange", "yellow", "warmdilute"],
-    "dullred": ["red", "yellow", "warmdilute"],
+    "dullred": ["red", "orange", "warmdilute"],
     "cream": ["pink", "yellow", "warmdilute", "dilute"],
     "lilac": ["pink", "gray", "dilute"],
     "cinn": ["red", "orange", "yellow", "gray"],

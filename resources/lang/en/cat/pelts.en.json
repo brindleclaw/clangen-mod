@@ -95,7 +95,7 @@
         },
         "CHOCOLATE": {
             "one": "chestnut",
-            "many": "brown"
+            "many": "chestnut"
         },
         "CHOCRUSSET": {
             "one": "chestnut",
@@ -109,9 +109,21 @@
             "one": "lilac",
             "many": "ashen lilac"
         },
-        "RUST": {
-            "one": "brown",
-            "many": "rusted brown"
+        "CINNAMON": {
+            "one": "sorrel",
+            "many": "sorrel"
+        },
+        "CINNTAWNY": {
+            "one": "sorrel",
+            "many": "tawny brown"
+        },
+        "FAWN": {
+            "one": "fawn",
+            "many": "fawn"
+        },
+        "FAWSALMON": {
+            "one": "fawn",
+            "many": "pinkish fawn"
         },
         "SingleColour": "single color",
         "SingleColour_long": "%{color}",
