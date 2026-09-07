@@ -52,6 +52,7 @@ class Pelt:
     chocolate_colours: list = []
     lilac_colours: list = []
     cinnamon_colours: list = []
+    fawn_colours: list = []
 
     all_pelt_colours.extend(
         list(sprites.GENERATION_GROUP_DATA["pelts"]["colors"].keys())
@@ -79,6 +80,8 @@ class Pelt:
             lilac_colours.append(colour)
         elif group == "cinnamon":
             cinnamon_colours.append(colour)
+        elif group == "fawn":
+            fawn_colours.append(colour)
         else:
             # Default
             black_colours.append(colour)
@@ -95,6 +98,7 @@ class Pelt:
         chocolate_colours,
         lilac_colours,
         cinnamon_colours,
+        fawn_colours,
     ]
 
     # PELT PATTERNS
@@ -744,38 +748,42 @@ class Pelt:
         # ------------------------------------------------------------------------------------------------------------#
         #   PELT COLOUR
         # ------------------------------------------------------------------------------------------------------------#
-        # Weights for each colour group. It goes: (red, silred, cream, black, silblack, blue, silblue, chocolate, lilac, cinnamon)
-        weights = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+        # Weights for each colour group. It goes: (red, silred, cream, black, silblack, blue, silblue, chocolate, lilac, cinnamon, fawn)
+        weights = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         for p_ in par_peltcolours:
             if p_ in Pelt.red_colours:
-                add_weight = (40, 0, 20, 0, 0, 0, 0, 0, 0, 0)
+                add_weight = (40, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0)
             elif p_ in Pelt.silred_colours:
-                add_weight = (20, 40, 15, 0, 0, 0, 0, 0, 0, 0)
+                add_weight = (20, 40, 15, 0, 0, 0, 0, 0, 0, 0, 0)
             elif p_ in Pelt.cream_colours:
-                add_weight = (0, 0, 40, 0, 0, 0, 0, 0, 0, 0)
+                add_weight = (0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0)
             elif p_ in Pelt.black_colours:
-                add_weight = (0, 0, 0, 40, 0, 20, 0, 5, 5, 5)
+                add_weight = (0, 0, 0, 40, 0, 20, 0, 5, 5, 5, 5)
             elif p_ in Pelt.silblack_colours:
-                add_weight = (0, 0, 0, 20, 40, 15, 15, 5, 5, 5)
+                add_weight = (0, 0, 0, 20, 40, 15, 15, 5, 5, 5, 5)
             elif p_ in Pelt.blue_colours:
-                add_weight = (0, 0, 0, 0, 0, 40, 0, 0, 5, 0)
+                add_weight = (0, 0, 0, 0, 0, 40, 0, 0, 5, 0, 5)
             elif p_ in Pelt.silblue_colours:
-                add_weight = (0, 0, 0, 0, 0, 20, 40, 0, 5, 0)
+                add_weight = (0, 0, 0, 0, 0, 20, 40, 0, 5, 0, 5)
             elif p_ in Pelt.chocolate_colours:
-                add_weight = (0, 0, 0, 0, 0, 0, 0, 40, 20, 5)
+                add_weight = (0, 0, 0, 0, 0, 0, 0, 40, 20, 5, 5)
             elif p_ in Pelt.lilac_colours:
-                add_weight = (0, 0, 0, 0, 0, 0, 0, 0, 40, 0)
+                add_weight = (0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 5)
+            elif p_ in Pelt.cinnamon_colours:
+                add_weight = (0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 20)
+            elif p_ in Pelt.fawn_colours:
+                add_weight = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40)
             elif p_ is None:
-                add_weight = (45, 15, 30, 50, 15, 30, 15, 5, 5, 5)
+                add_weight = (45, 15, 30, 50, 15, 30, 15, 5, 5, 5, 5)
             else:
-                add_weight = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+                add_weight = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 
             for x in range(0, len(weights)):
                 weights[x] += add_weight[x]
 
             # A quick check to make sure all the weights aren't 0
             if all([x == 0 for x in weights]):
-                weights = [1, 1, 1, 1, 1, 1, 1, 1, 1]
+                weights = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
         chosen_pelt_color = choice(
             random.choices(Pelt.colour_categories, weights=weights, k=1)[0]
@@ -876,7 +884,7 @@ class Pelt:
         #   PELT COLOUR
         # ------------------------------------------------------------------------------------------------------------#
 
-        chosen_pelt_color = choice(random.choices(Pelt.colour_categories, weights=(70, 20, 50, 100, 20, 50, 10, 5, 5, 5), k=1)[0])
+        chosen_pelt_color = choice(random.choices(Pelt.colour_categories, weights=(70, 20, 50, 100, 20, 50, 10, 5, 5, 5, 5), k=1)[0])
 
         # ------------------------------------------------------------------------------------------------------------#
         #   PELT LENGTH
@@ -1056,14 +1064,15 @@ class Pelt:
                         )
                     elif (self.colour in Pelt.blue_colours) or (
                         self.colour in Pelt.silblue_colours) or (
-                        self.colour in Pelt.lilac_colours
+                        self.colour in Pelt.lilac_colours) or (
+                        self.colour in Pelt.fawn_colours
                     ):
                         self.tortie_colour = choice(
                             Pelt.cream_colours
                         )
                     elif self.colour in Pelt.cream_colours:
                         self.tortie_colour = choice(
-                            (Pelt.blue_colours * 3) + (Pelt.silblue_colours) + (Pelt.lilac_colours)
+                            (Pelt.blue_colours * 3) + (Pelt.silblue_colours * 2) + (Pelt.lilac_colours) + (Pelt.fawn_colours)
                         )
                     else:
                         self.tortie_colour = "GINGER"
@@ -1411,9 +1420,9 @@ def _describe_torties(cat, color_name, short=False) -> (str, str):
         # Just call them calico, tortie, or mottled
         if (
             cat.pelt.colour
-            in Pelt.black_colours + Pelt.blue_colours + Pelt.silblack_colours + Pelt.silblue_colours + Pelt.chocolate_colours + Pelt.lilac_colours + Pelt.cinnamon_colours
+            in Pelt.black_colours + Pelt.blue_colours + Pelt.silblack_colours + Pelt.silblue_colours + Pelt.chocolate_colours + Pelt.lilac_colours + Pelt.cinnamon_colours + Pelt.fawn_colours
             and cat.pelt.tortie_colour
-            in Pelt.black_colours + Pelt.blue_colours + Pelt.silblack_colours + Pelt.silblue_colours + Pelt.chocolate_colours + Pelt.lilac_colours + Pelt.cinnamon_colours
+            in Pelt.black_colours + Pelt.blue_colours + Pelt.silblack_colours + Pelt.silblue_colours + Pelt.chocolate_colours + Pelt.lilac_colours + Pelt.cinnamon_colours + Pelt.fawn_colours
         ):
             return "cat.pelts.mottled", ""
         else:
@@ -1426,9 +1435,9 @@ def _describe_torties(cat, color_name, short=False) -> (str, str):
     color_name.append(patches_color)
 
     if (
-        cat.pelt.colour in Pelt.black_colours + Pelt.blue_colours + Pelt.silblack_colours + Pelt.silblue_colours + Pelt.chocolate_colours + Pelt.lilac_colours + Pelt.cinnamon_colours
+        cat.pelt.colour in Pelt.black_colours + Pelt.blue_colours + Pelt.silblack_colours + Pelt.silblue_colours + Pelt.chocolate_colours + Pelt.lilac_colours + Pelt.cinnamon_colours + Pelt.fawn_colours
         and cat.pelt.tortie_colour
-        in Pelt.black_colours + Pelt.blue_colours + Pelt.silblack_colours + Pelt.silblue_colours + Pelt.chocolate_colours + Pelt.lilac_colours + Pelt.cinnamon_colours
+        in Pelt.black_colours + Pelt.blue_colours + Pelt.silblack_colours + Pelt.silblue_colours + Pelt.chocolate_colours + Pelt.lilac_colours + Pelt.cinnamon_colours + Pelt.fawn_colours
     ):
         return "cat.pelts.mottled_long", color_name
     else:

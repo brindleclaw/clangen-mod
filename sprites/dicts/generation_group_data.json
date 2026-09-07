@@ -29,7 +29,9 @@
             "LILAC": "lilac",
             "ASH": "lilac",
             "CINNAMON": "cinnamon",
-            "CINNTAWNY": "cinnamon"
+            "CINNTAWNY": "cinnamon",
+            "FAWN": "fawn",
+            "FAWSALMON": "fawn"
         },
         "pattern_types": {
             "Tabby": "tabbies",

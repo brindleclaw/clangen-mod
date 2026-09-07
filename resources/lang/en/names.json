@@ -683,6 +683,42 @@
     "Fuchsia", "Orache", "Robin", "Safflower", "Sickener", "Sorrel", "Willow",
     "Holly", "Cherry", "Rowan", "Yew", 
     "Tench", "Rudd"
+    ],
+    "FAWN": [
+    "Golden", "Yellow", "Cream", "Light", "Pale", "Bright",
+    "Honey", "Sand", "Wax",
+    "Lion", "Sheep",
+    "Dove", "Jay", "Nightingale",
+    "Alder", "Bay", "Clover", "Cornel", "Corydalis", "Daffodil", "Garlic", "Grass", "Madder",
+    "Maize", "Mustard", "Nettle", "Plantain", "Rowan", "Scabious", "Sedge", "Thistle", "Vine",
+    "Yew", "Agrimony", "Alexanders", "Alison", "Asphodel", "Avens", "Azalea", "Balsam","Bartsia",
+    "Trefoil", "Marigold", "Cabbage", "Chanterelle", "Charlock", "Clematis", "Corydalis",
+    "Courgette", "Crocus", "Currant", "Cyphel", "Daffodil", "Dandelion", "Dock", "Dodder",
+    "Elecampane", "Fennel", "Fluellen", "Gorse", "Celandine", "Groundsel", "Iris", "Laburnum",
+    "Lettuce", "Lily", "Lucerne", "Lupin", "Rue", "Medick", "Melilot", "Mullein", "Orchid", "Pansy", 
+    "Pimpernel", "Pine", "Poppy", "Purslane", "Radish", "Rattle", "Rocket", "Sage", "Samphire", 
+    "Saxifrage", "Sedge", "Senna", "Spurge", "Tansy", "Tormentil", "Tutsan", "Vetch", "Vetchling", 
+    "Whin", "Woad", "Quince", "Yarrow",
+    "Apple",
+    "Carp", "Rudd"
+    ],
+    "FAWSALMON": [
+    "Golden", "Yellow", "Cream", "Light", "Pale", "Bright",
+    "Honey", "Sand", "Wax",
+    "Lion", "Sheep",
+    "Dove", "Jay", "Nightingale",
+    "Alder", "Bay", "Clover", "Cornel", "Corydalis", "Daffodil", "Garlic", "Grass", "Madder",
+    "Maize", "Mustard", "Nettle", "Plantain", "Rowan", "Scabious", "Sedge", "Thistle", "Vine",
+    "Yew", "Agrimony", "Alexanders", "Alison", "Asphodel", "Avens", "Azalea", "Balsam","Bartsia",
+    "Trefoil", "Marigold", "Cabbage", "Chanterelle", "Charlock", "Clematis", "Corydalis",
+    "Courgette", "Crocus", "Currant", "Cyphel", "Daffodil", "Dandelion", "Dock", "Dodder",
+    "Elecampane", "Fennel", "Fluellen", "Gorse", "Celandine", "Groundsel", "Iris", "Laburnum",
+    "Lettuce", "Lily", "Lucerne", "Lupin", "Rue", "Medick", "Melilot", "Mullein", "Orchid", "Pansy", 
+    "Pimpernel", "Pine", "Poppy", "Purslane", "Radish", "Rattle", "Rocket", "Sage", "Samphire", 
+    "Saxifrage", "Sedge", "Senna", "Spurge", "Tansy", "Tormentil", "Tutsan", "Vetch", "Vetchling", 
+    "Whin", "Woad", "Quince", "Yarrow",
+    "Apple",
+    "Carp", "Rudd"
     ]
   },
 
@@ -716,7 +752,9 @@
     "LILAC": ["pelt", "fur", "tuft", "face"],
     "ASH": ["pelt", "fur", "tuft", "face"],
     "CINNAMON": ["pelt", "fur", "tuft", "face"],
-    "CINNTAWNY": ["pelt", "fur", "tuft", "face"]
+    "CINNTAWNY": ["pelt", "fur", "tuft", "face"],
+    "FAWN": ["pelt", "fur", "tuft", "face"],
+    "FAWSALMON": ["pelt", "fur", "tuft", "face"]
   },
 
   "biome_prefixes": {

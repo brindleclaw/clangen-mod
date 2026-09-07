@@ -29,7 +29,9 @@
     "LILAC": "hotncold",
     "ASH": "hotncold",
     "CINNAMON": "warm",
-    "CINNTAWNY": "warm"
+    "CINNTAWNY": "warm",
+    "FAWN": "hotncold",
+    "FAWSALMON": "pale"
   },
   "possible_tints": {
     "basic": ["offwhite"],

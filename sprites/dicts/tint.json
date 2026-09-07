@@ -29,7 +29,9 @@
     "LILAC":"lilac",
     "ASH": "lilac",
     "CINNAMON": "cinn",
-    "CINNTAWNY": "cinn"
+    "CINNTAWNY": "cinn",
+    "FAWN": "fawn",
+    "FAWSALMON": "fawn"
   },
   "possible_tints": {
     "basic": [],
@@ -41,7 +43,8 @@
     "dullred": ["red", "yellow", "warmdilute"],
     "cream": ["pink", "yellow", "warmdilute", "dilute"],
     "lilac": ["pink", "gray", "dilute"],
-    "cinn": ["red", "orange", "yellow", "gray"]
+    "cinn": ["red", "orange", "yellow", "gray"],
+    "fawn": ["pink", "warmdilute"]
   },
   "tint_colours":
   {
