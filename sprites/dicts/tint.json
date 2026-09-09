@@ -39,7 +39,7 @@
     "mono": ["gray", "black"],
     "darkwarm": ["patina", "quartz", "tawny", "orange", "yellow", "purple", "gloaming", "night", "gray", "black"],
     "lightwarm": ["orange", "yellow", "purple", "gray"],
-    "cool": ["gray", "black", "blue", "cooldilute", "lilacdilute", "dilute"],
+    "cool": ["gray", "black", "blue", "cooldilute", "dilute"],
     "satred": ["pink", "orange", "yellow", "patina", "warmdilute", "lilacdilute"],
     "dullred": ["red", "orange", "warmdilute"],
     "cream": ["pink", "yellow", "warmdilute", "dilute"],
