@@ -596,7 +596,7 @@ dev_tools = false
   small_clan_threshold = 20
 
   # base 1/chance for a romance patrol. gets modified further in code
-  chance_of_romance_patrol = 16
+  chance_of_romance_patrol = 12
 
   [patrol_generation.debug_ensure]
     # forces patrol with this id to occur, assuming it's possible by constraints
@@ -745,7 +745,7 @@ dev_tools = false
   [graduation.max_apprentice_age]
     # max apprentice ages. after this, they're forcibly promoted
     "medicine cat apprentice" = 30
-    apprentice = 25
+    apprentice = 20
     "mediator apprentice" = 25
 
 [outsiders]
