@@ -85,6 +85,10 @@
             "one": "yellow",
             "many": "yellow silver"
         },
+        "BLOSSOM": {
+            "one": "cream",
+            "many": "cream"
+        },
         "CREAM": {
             "one": "cream",
             "many": "cream"
